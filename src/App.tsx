@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Posts } from './components';
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -27,9 +28,8 @@ const App: React.FC = () => {
         <h2>H2</h2>
         <h3>H3</h3>
         <h4>H4</h4>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <p>Some GET request example</p>
+        <Posts />
         <a
           className="App-link"
           href="https://reactjs.org"
