@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @extend .mb-2;
+}
+
+p,
+a,
+ul,
+ol {
+  @extend .mb-2;
+}
+
+hr {
+  @extend .my-4, .bg-secondary;
+}
+
+a {
+  @extend .text-decoration-none;
+
+  &:hover {
+    @extend .text-decoration-underline;
+  }
+}
+
+ul,
+ol {
+  @extend .ps-4;
+}
+
+button {
+  @extend .btn-primary, .btn, .my-2;
+}

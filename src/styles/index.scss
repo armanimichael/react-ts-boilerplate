@@ -1,0 +1,10 @@
+@import './_custom.scss';
+@import './text';
+
+* {
+  transition: all 140ms linear;
+}
+
+.dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+}
